@@ -86,8 +86,10 @@ ping -a -b -c 1 -D irc.2600.net
 traceroute irc.2600.net
 ping -a -b -c 1 -D dw.com
 traceroute dw.com
+nc -vz dw.com 443
 ping -a -b -c 1 -D onion.torproject.org
 traceroute onion.torproject.org
+nc -vz torproject.org 443
 echo	'---'
 
 echo	"Tor Connectivity"
